@@ -1,0 +1,187 @@
+object Form2: TForm2
+  Left = 477
+  Height = 190
+  Top = 278
+  Width = 420
+  BorderIcons = []
+  Caption = 'Unos nove šifre'
+  ClientHeight = 190
+  ClientWidth = 420
+  Color = 13041635
+  Constraints.MaxHeight = 190
+  Constraints.MaxWidth = 420
+  Constraints.MinHeight = 190
+  Constraints.MinWidth = 420
+  Position = poDesktopCenter
+  LCLVersion = '3.8.0.0'
+  object Button1: TButton
+    Left = 296
+    Height = 31
+    Hint = 'Izađi bes promene ..'
+    Top = 144
+    Width = 62
+    Caption = 'Izađi'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 4
+    OnClick = Button1Click
+  end
+  object Label1: TLabel
+    Left = 17
+    Height = 21
+    Top = 21
+    Width = 52
+    Caption = 'Naziv :'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 17
+    Height = 21
+    Top = 50
+    Width = 40
+    Caption = 'Link :'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 17
+    Height = 21
+    Top = 76
+    Width = 70
+    Caption = 'Korisnik :'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 17
+    Height = 21
+    Top = 105
+    Width = 43
+    Caption = 'Šifra :'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 96
+    Height = 29
+    Top = 13
+    Width = 312
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Edit3: TEdit
+    Left = 96
+    Height = 29
+    Top = 68
+    Width = 312
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Edit4: TEdit
+    Left = 96
+    Height = 29
+    Top = 97
+    Width = 312
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 72
+    Height = 30
+    Hint = 'Zapamti dodati unos ..'
+    Top = 144
+    Width = 87
+    Caption = 'Zapamti'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -15
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 5
+    OnClick = Button2Click
+  end
+  object Edit2: TEdit
+    Left = 96
+    Height = 29
+    Top = 42
+    Width = 312
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object SQLite3Connection2: TSQLite3Connection
+    Connected = False
+    LoginPrompt = False
+    DatabaseName = 'sifre.db'
+    KeepConnection = True
+    Transaction = SQLTransaction2
+    AlwaysUseBigint = False
+    Left = 41
+    Top = 248
+  end
+  object SQLQuery2: TSQLQuery
+    FieldDefs = <>
+    Database = SQLite3Connection2
+    Transaction = SQLTransaction2
+    Params = <>
+    Macros = <>
+    Left = 125
+    Top = 245
+  end
+  object SQLTransaction2: TSQLTransaction
+    Active = False
+    Database = SQLite3Connection2
+    Left = 192
+    Top = 249
+  end
+  object DataSource2: TDataSource
+    DataSet = SQLQuery2
+    Left = 265
+    Top = 248
+  end
+end
