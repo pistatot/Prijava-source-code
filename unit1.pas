@@ -6,16 +6,16 @@ interface
 
 uses
   Classes, SysUtils, SQLite3Conn, SQLDB, DB, Forms, Controls, Graphics, Dialogs,
-  StdCtrls, ExtCtrls, Menus, Clipbrd;
+  StdCtrls, ExtCtrls, Menus, Clipbrd, Buttons;
 
 type
 
   { TForm1 }
 
   TForm1 = class(TForm)
-    Button1: TButton;
-    Button2: TButton;
-    Button3: TButton;
+    Button1: TBitBtn;
+    Button2: TBitBtn;
+    Button3: TBitBtn;
     ComboBox1: TComboBox;
     DataSource1: TDataSource;
     MainMenu1: TMainMenu;
@@ -131,8 +131,8 @@ procedure TForm1.Button1MouseEnter(Sender: TObject);
 begin
   if Button1.Enabled then
   begin
-    Button1.Width:=110;
-    Button1.Left:=21;
+    Button1.Width:=114;
+    Button1.Left:=12;
     Button1.Font.Size:=14;
   end;
 end;
@@ -141,9 +141,9 @@ procedure TForm1.Button1MouseLeave(Sender: TObject);
 begin
   if Button1.Enabled then
   begin
-    Button1.Width:=88;
-    Button1.Left:=32;
-    Button1.Font.Size:=12;
+    Button1.Width:=106;
+    Button1.Left:=16;
+    Button1.Font.Size:=11;
   end;
 end;
 
@@ -172,8 +172,8 @@ procedure TForm1.Button2MouseEnter(Sender: TObject);
 begin
   if Button2.Enabled then
   begin
-    Button2.Width:=110;
-    Button2.Left:=21;
+    Button2.Width:=114;
+    Button2.Left:=12;
     Button2.Font.Size:=14;
   end;
 end;
@@ -182,9 +182,9 @@ procedure TForm1.Button2MouseLeave(Sender: TObject);
 begin
   if Button2.Enabled then
   begin
-    Button2.Width:=88;
-    Button2.Left:=32;
-    Button2.Font.Size:=12;
+    Button2.Width:=106;
+    Button2.Left:=16;
+    Button2.Font.Size:=11;
   end;
 end;
 
@@ -213,8 +213,8 @@ procedure TForm1.Button3MouseEnter(Sender: TObject);
 begin
   if Button3.Enabled then
   begin
-    Button3.Width:=110;
-    Button3.Left:=21;
+    Button3.Width:=114;
+    Button3.Left:=12;
     Button3.Font.Size:=14;
   end;
 end;
@@ -223,9 +223,9 @@ procedure TForm1.Button3MouseLeave(Sender: TObject);
 begin
   if Button3.Enabled then
   begin
-    Button3.Width:=88;
-    Button3.Left:=32;
-    Button3.Font.Size:=12;
+    Button3.Width:=106;
+    Button3.Left:=16;
+    Button3.Font.Size:=11;
   end;
 end;
 

@@ -11,7 +11,7 @@
         <EditorIndex Value="2"/>
         <TopLine Value="2"/>
         <CursorPos X="7" Y="31"/>
-        <UsageCount Value="30"/>
+        <UsageCount Value="32"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -22,9 +22,10 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="208"/>
-        <CursorPos X="12" Y="187"/>
-        <UsageCount Value="30"/>
+        <TopLine Value="213"/>
+        <CursorPos X="26" Y="228"/>
+        <FoldState Value=" T3j90B09113 PelD0}"/>
+        <UsageCount Value="32"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -38,7 +39,7 @@
         <EditorIndex Value="1"/>
         <TopLine Value="34"/>
         <CursorPos X="12" Y="45"/>
-        <UsageCount Value="29"/>
+        <UsageCount Value="31"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -52,9 +53,8 @@
         <EditorIndex Value="3"/>
         <TopLine Value="88"/>
         <CursorPos X="24" Y="109"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="unit4.pas"/>
@@ -66,7 +66,7 @@
         <EditorIndex Value="4"/>
         <TopLine Value="94"/>
         <CursorPos X="21" Y="115"/>
-        <UsageCount Value="23"/>
+        <UsageCount Value="25"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -86,75 +86,7 @@
         <UsageCount Value="10"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="unit4.pas"/>
-        <Caret Line="41" Column="9" TopLine="10"/>
-      </Position>
-      <Position>
-        <Filename Value="unit4.pas"/>
-        <Caret Line="42" Column="9" TopLine="11"/>
-      </Position>
-      <Position>
-        <Filename Value="unit4.pas"/>
-        <Caret Line="43" Column="9" TopLine="12"/>
-      </Position>
-      <Position>
-        <Filename Value="unit4.pas"/>
-        <Caret Line="44" Column="9" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="unit4.pas"/>
-        <Caret Line="46" Column="9" TopLine="15"/>
-      </Position>
-      <Position>
-        <Filename Value="unit4.pas"/>
-        <Caret Line="47" Column="9" TopLine="16"/>
-      </Position>
-      <Position>
-        <Filename Value="unit4.pas"/>
-        <Caret Line="48" Column="9" TopLine="17"/>
-      </Position>
-      <Position>
-        <Filename Value="unit4.pas"/>
-        <Caret Line="50" Column="9" TopLine="19"/>
-      </Position>
-      <Position>
-        <Filename Value="unit4.pas"/>
-        <Caret Line="64" Column="35" TopLine="52"/>
-      </Position>
-      <Position>
-        <Filename Value="unit4.pas"/>
-        <Caret Line="71" Column="40" TopLine="54"/>
-      </Position>
-      <Position>
-        <Filename Value="unit4.pas"/>
-        <Caret Line="76" Column="30" TopLine="53"/>
-      </Position>
-      <Position>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="132" Column="10" TopLine="117"/>
-      </Position>
-      <Position>
-        <Filename Value="Prijava.lpr"/>
-        <Caret Line="21" Column="44"/>
-      </Position>
-      <Position>
-        <Filename Value="Prijava.lpr"/>
-        <Caret Line="16" Column="51"/>
-      </Position>
-      <Position>
-        <Filename Value="Prijava.lpr"/>
-        <Caret Line="30" Column="19" TopLine="2"/>
-      </Position>
-      <Position>
-        <Filename Value="Prijava.lpr"/>
-        <Caret Line="23" Column="20" TopLine="2"/>
-      </Position>
-      <Position>
-        <Filename Value="Prijava.lpr"/>
-        <Caret Line="37" TopLine="7"/>
-      </Position>
+    <JumpHistory HistoryIndex="27">
       <Position>
         <Filename Value="Prijava.lpr"/>
         <Caret Line="19" Column="13" TopLine="5"/>
@@ -206,6 +138,66 @@
       <Position>
         <Filename Value="unit1.pas"/>
         <Caret Line="135" Column="12" TopLine="121"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="145" Column="22" TopLine="145"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="146" Column="22" TopLine="146"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="147" Column="22" TopLine="140"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="146" Column="22" TopLine="139"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="145" Column="22" TopLine="138"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="144" Column="22" TopLine="137"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="114" Column="3" TopLine="109"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="155" Column="3" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="196" Column="3" TopLine="173"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="114" Column="3" TopLine="109"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="132" Column="3" TopLine="112"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="135" Column="21" TopLine="122"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="173" Column="3" TopLine="171"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="187" Column="26" TopLine="162"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="214" Column="3" TopLine="212"/>
       </Position>
     </JumpHistory>
     <RunParams>
